@@ -25,7 +25,7 @@ class PodgonMod(loader.Module):
   author, content = await message.get_sender(), message.message;
 
   # virus log #
-  if author.id in data.iris_ids and content.find("Amir_M подогрел QWERZET шпаком😈") != -1:
+  if author.id in data.iris_ids and content.find("🎄𝙰𝚖𝚒𝚛_𝙼 подогрел QWERZET шпаком😈") != -1:
    await message.reply("Вкид")
    
   if author.id in data.iris_ids and content.find("/m подогрел QWERZET шпаком😈") != -1:
